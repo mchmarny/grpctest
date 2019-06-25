@@ -27,7 +27,7 @@ call:
 		--server=grpctest.demo.knative.tech:8080 \
 		--name=John
 
-	# curl http://localhost:8080/v1/say/mark
+	# curl http://localhost:8080/v1/say/john
 
 mod:
 	go mod tidy
