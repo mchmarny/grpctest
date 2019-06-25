@@ -15,9 +15,9 @@
     "application/json"
   ],
   "paths": {
-    "/v1/hello/{greeting}": {
+    "/v1/say/{greeting}": {
       "get": {
-        "operationId": "SayHello",
+        "operationId": "Say",
         "responses": {
           "200": {
             "description": "A successful response.",

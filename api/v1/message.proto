@@ -8,8 +8,8 @@ message PingMessage {
   string greeting = 1;
 }
 service Ping {
-  rpc SayHello(PingMessage) returns (PingMessage) {
-      option (google.api.http) = { get: "/v1/hello/{greeting}" };
+  rpc Say(PingMessage) returns (PingMessage) {
+      option (google.api.http) = { get: "/v1/say/{greeting}" };
   }
 }
 
