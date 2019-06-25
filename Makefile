@@ -24,7 +24,7 @@ run:
 
 call:
 	go run cmd/client/main.go \
-		--server=grpctest.demo.knative.tech:8080 \
+		--server=grpctest.demo.knative.tech:80 \
 		--name=John
 
 	# curl http://localhost:8080/v1/say/john

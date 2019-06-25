@@ -9,6 +9,9 @@ spec:
         spec:
           container:
             image: gcr.io/cloudylabs-public/grpctest:0.1.2
+            ports:
+              - containerPort: 8080
+                name: h2c
             resources:
               limits:
                 cpu: "1"
